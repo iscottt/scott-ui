@@ -1,0 +1,31 @@
+{
+  "name": "scott-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "dev": "vite",
+    "build": "vite build",
+    "register:components": "vitepress-rc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "vite": "^3.0.8",
+    "vitepress": "^0.22.4",
+    "vitepress-theme-demoblock": "^1.4.2"
+  },
+  "dependencies": {
+    "plugin-vue^3.0.4": "link:@vitejs/plugin-vue^3.0.4",
+    "unocss": "^0.45.8",
+    "vue": "^3.2.37"
+  }
+}
