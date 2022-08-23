@@ -7,5 +7,4 @@
   // waiting: #beccfa;
   // success: #50d4ab;
   // text: #71757f
-  // aide_text: #71757f
 ```
