@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite';
 import { setupVitePlugins } from './plugins';
 // 配置导出模块类型
@@ -11,6 +12,13 @@ const rollupOptions = {
 };
 export default defineConfig({
   plugins: setupVitePlugins(),
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    transformMode: {
+      web: [/.[tj]sx$/]
+    }
+  },
   build: {
     rollupOptions,
     minify: false,

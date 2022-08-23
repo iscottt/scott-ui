@@ -1,10 +1,8 @@
-import { App } from 'vue';
-import SButton from './button/index';
-import SFCButton from './SFCButton.vue';
-import JSXButton from './JSXButton';
-
-// 导出单独组件
-export { SButton, SFCButton, JSXButton };
+import { App } from "vue";
+import SButton from "./button";
+import SFCButton from "./SFCButton.vue";
+import JSXButton from "./JSXButton";
+import "uno.css";
 
 // 编写一个插件，实现一个install方法
 
@@ -15,3 +13,6 @@ export default {
     app.component(JSXButton.name, JSXButton);
   },
 };
+
+// 导出单独组件
+export { SButton, SFCButton, JSXButton };
