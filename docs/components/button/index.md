@@ -5,7 +5,7 @@
 
 基础的函数用法
 
-使用`size`、`color`、`pain`、`round`属性来定义 Button 的样式。
+使用`size`、`type`、`ghost`、`round`属性来定义 Button 的样式。
 
 :::demo
 ```vue
