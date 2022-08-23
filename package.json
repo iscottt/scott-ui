@@ -13,7 +13,8 @@
     "lint": "eslint --fix --ext .ts,.vue,.tsx src",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "register:components": "vitepress-rc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -42,6 +43,8 @@
     "vitest": "0.21.1"
   },
   "dependencies": {
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
     "plugin-vue^3.0.4": "link:@vitejs/plugin-vue^3.0.4",
     "unocss": "^0.45.8",
     "vue": "^3.2.37"
