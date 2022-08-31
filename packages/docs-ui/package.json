@@ -10,11 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "scott-ui": "workspace:^1.0.0"
-  },
   "dependencies": {
     "vite": "^3.0.8",
     "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "scott-ui": "workspace:^1.0.0"
   }
 }
