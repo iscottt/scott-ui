@@ -1,5 +1,5 @@
-import SButton from './Button';
-import { App } from 'vue';
+import SButton from "./Button";
+import { App } from "vue";
 
 // 导出Button组件
 export { SButton };

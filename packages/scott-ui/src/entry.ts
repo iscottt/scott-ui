@@ -1,8 +1,8 @@
-import { App } from 'vue';
-import { SButton } from './button';
-import SFCButton from './SFCButton.vue';
-import JSXButton from './JSXButton';
-import 'uno.css';
+import { App } from "vue";
+import { SButton } from "./button";
+import SFCButton from "./SFCButton.vue";
+import JSXButton from "./JSXButton";
+import "uno.css";
 
 // 编写一个插件，实现一个install方法
 
