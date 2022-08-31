@@ -8,6 +8,7 @@ const rollupOptions = {
     globals: {
       vue: "Vue",
     },
+    exports: "named",
   },
 };
 export default defineConfig({
@@ -20,6 +21,7 @@ export default defineConfig({
     },
   },
   build: {
+    // @ts-ignore
     rollupOptions,
     minify: false,
     cssCodeSplit: true,
