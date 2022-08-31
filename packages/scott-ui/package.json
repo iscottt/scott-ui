@@ -41,7 +41,6 @@
     "vitest": "0.21.1"
   },
   "dependencies": {
-    "plugin-vue^3.0.4": "link:@vitejs/plugin-vue^3.0.4",
     "unocss": "^0.45.8",
     "vue": "^3.2.37"
   }
