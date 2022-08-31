@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <h1>🔨 SmartyUI Demo</h1>
+    <div id="app"></div>
+    <script type="module">
+      import style from 'scott-ui/entry.css';
+      import { createApp } from 'vue/dist/vue.esm-bundler.js';
+      import ScottUI, { SFCButton, JSXButton, SButton } from 'scott-ui/scott-ui.esm.js';
 
-<h1>🔨 SmartyUI Demo</h1>
-<div id="app"></div>
-<script type="module">
-    import style from "scott-ui/dist/entry.css"
-    import { createApp } from "vue/dist/vue.esm-bundler.js";
-    import ScottUI, { SFCButton, JSXButton, SButton } from "scott-ui/dist/scott-ui.esm.js";
-
-    createApp({
+      createApp({
         template: `
         <div style="margin-bottom:20px;">
-            <SButton color="blue">主要按钮</SButton>
+            <SButton type="primary">主要按钮</SButton>
             <SButton color="green">绿色按钮</SButton>
             <SButton color="gray">灰色按钮</SButton>
             <SButton color="yellow">黄色按钮</SButton>
@@ -53,9 +51,10 @@
             <SButton color="yellow" round plain icon="message"></SButton>
             <SButton color="red" round plain icon="delete"></SButton>
         </div>
-    `}).use(ScottUI).mount('#app')
-
-</script>
-</body>
-
+    `,
+      })
+        .use(ScottUI)
+        .mount('#app');
+    </script>
+  </body>
 </html>
