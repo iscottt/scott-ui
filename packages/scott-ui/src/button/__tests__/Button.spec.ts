@@ -5,8 +5,8 @@ import { describe, expect, test } from "vitest";
 // 测试分组
 describe("Button", () => {
   // mount
-  test("mount  @vue/test-utils", () => {
-    // @vue/test-utils
+  test("mount  @vue/__tests__-utils", () => {
+    // @vue/__tests__-utils
     const wrapper = shallowMount(Button, {
       slots: {
         default: "Button",

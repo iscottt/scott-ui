@@ -26,4 +26,4 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Run Lint
-        run: pnpm run lint
+        run: cd packages/scott-ui && pnpm run lint

@@ -35,7 +35,7 @@ devDependencies:
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.0.3_vite@3.0.9+vue@3.2.38
   '@vitejs/plugin-vue-jsx': registry.npmmirror.com/@vitejs/plugin-vue-jsx/2.0.0_vite@3.0.9+vue@3.2.38
   '@vue/eslint-config-prettier': registry.npmmirror.com/@vue/eslint-config-prettier/7.0.0_bxpuzolsxufkw2ipnoyzzxnyrm
-  '@vue/test-utils': registry.npmmirror.com/@vue/test-utils/2.0.2_vue@3.2.38
+  '@vue/test-utils': registry.npmmirror.com/@vue/__tests__-utils/2.0.2_vue@3.2.38
   babel-eslint: registry.npmmirror.com/babel-eslint/10.1.0_eslint@8.23.0
   eslint: registry.npmmirror.com/eslint/8.23.0
   eslint-formatter-pretty: registry.npmmirror.com/eslint-formatter-pretty/4.1.0
@@ -1486,8 +1486,8 @@ packages:
 
   registry.npmmirror.com/@vue/test-utils/2.0.2_vue@3.2.38:
     resolution: {integrity: sha512-E2P4oXSaWDqTZNbmKZFVLrNN/siVN78YkEqs7pHryWerrlZR9bBFLWdJwRoguX45Ru6HxIflzKl4vQvwRMwm5g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/test-utils/-/test-utils-2.0.2.tgz}
-    id: registry.npmmirror.com/@vue/test-utils/2.0.2
-    name: '@vue/test-utils'
+    id: registry.npmmirror.com/@vue/__tests__-utils/2.0.2
+    name: '@vue/__tests__-utils'
     version: 2.0.2
     peerDependencies:
       vue: ^3.0.1

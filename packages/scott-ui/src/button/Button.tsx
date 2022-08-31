@@ -1,4 +1,5 @@
 import { defineComponent, PropType } from "vue";
+import "uno.css";
 
 export type IType = "primary" | "warning" | "danger" | "success" | "default";
 export type ISize = "large" | "medium" | "small";

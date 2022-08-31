@@ -1,8 +1,5 @@
-import { createApp } from 'vue/dist/vue.esm-browser';
-import SButton from './button/Button';
-import SFCButton from './SFCButton.vue';
-import JSXButton from './JSXButton';
-import ScottUI from './entry';
+import { createApp } from "vue/dist/vue.esm-browser";
+import ScottUI from "./entry";
 createApp({
   template: `<div>
     <SButton>默认按钮</SButton>
@@ -13,4 +10,4 @@ createApp({
   </div>`,
 })
   .use(ScottUI)
-  .mount('#app');
+  .mount("#app");
