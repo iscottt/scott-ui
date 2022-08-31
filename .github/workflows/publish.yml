@@ -28,4 +28,4 @@ jobs:
           NPM_AUTH_TOKEN: ${{ secrets.SCOTT_UI }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
           default_branch: "publish"
-          dir: "packages/smarty-ui-vite"
+          dir: "scott-ui"
