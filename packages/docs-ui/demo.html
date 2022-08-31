@@ -13,7 +13,7 @@
 <h1>🔨 SmartyUI Demo</h1>
 <div id="app"></div>
 <script type="module">
-    import style from "scott-ui/dist/style.css"
+    import style from "scott-ui/dist/assets/entry"
     import { createApp } from "vue/dist/vue.esm-bundler.js";
     import ScottUI, { SFCButton, JSXButton, SButton } from "scott-ui/dist/scott-ui.es.js";
 
@@ -53,7 +53,7 @@
             <SButton color="yellow" round plain icon="message"></SButton>
             <SButton color="red" round plain icon="delete"></SButton>
         </div>
-    `}).use(SmartyUI).mount('#app')
+    `}).use(ScottUI).mount('#app')
 
 </script>
 </body>

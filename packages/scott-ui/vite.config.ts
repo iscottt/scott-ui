@@ -4,11 +4,12 @@ import { setupVitePlugins } from "./plugins";
 import { UserConfig } from "vitest";
 // 配置导出模块类型
 const rollupOptions = {
-  external: ["vue", "vue-router"],
+  external: ["vue"],
   output: {
     globals: {
       vue: "Vue",
     },
+    assetFileNames: `[name].[ext]`,
     exports: "named",
   },
 };
@@ -34,7 +35,7 @@ export const config = {
       name: "ScottUI",
       fileName: "scott-ui",
       // 导出模块格式
-      formats: ["es", "umd", "iife"],
+      formats: ["esm", "umd", "iife"],
     },
     outDir: "./dist",
   },
