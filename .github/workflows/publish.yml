@@ -8,7 +8,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
-    name: "publish npm"
+    name: 'publish npm'
 
     environment: npm
 
@@ -21,11 +21,11 @@ jobs:
         run: cd packages/scott-ui && pnpm install
       - name: Build
         run: cd packages/scott-ui && npm run build
-      - name: "Publish to the npm registry"
+      - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.SCOTT_UI }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
-          default_branch: "publish"
-          dir: "packages/scott-ui"
+          default_branch: 'publish'
+          dir: 'packages/scott-ui/dist'
