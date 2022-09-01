@@ -13,8 +13,10 @@ dist_electron
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log
 .pnpm-debug.log*
 pnpm-lock.yaml
+
 
 # Editor directories and files
 .idea

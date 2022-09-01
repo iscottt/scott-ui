@@ -2,20 +2,23 @@
   "name": "scott-ui",
   "version": "1.0.0-1",
   "description": "a personal design framework",
-  "main": "index.js",
+  "main": "scott-ui.umd.js",
+  "homepage": "https://docs-scott-ui.vercel.app/",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
+    "docs:dev": "vitepress dev ./docs",
+    "docs:build": "vitepress build ./docs",
+    "docs:serve": "vitepress serve ./docs",
     "dev": "vite",
     "build:all": "vite build",
     "build": "pnpm build:components",
     "test": "vitest",
-    "lint": "eslint --fix --ext .ts,.vue,.tsx src",
-    "format": "prettier --write \\\"src/**/*.ts\\\" \\\"src/**/*.vue\\\"",
+    "lint": "eslint --fix --ext .ts,.vue,.tsx ./src",
+    "format": "prettier --write \\\\\\\\\\\\\\\"src/**/*.ts\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\"src/**/*.vue\\\\\\\\\\\\\\\"",
     "build:components": "esno ./scripts/build.ts",
     "register:components": "vitepress-rc",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "preinstall": "node ./scripts/preinstall.js",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +40,7 @@
     "fs-extra": "^10.1.0",
     "happy-dom": "6.0.4",
     "prettier": "^2.7.1",
+    "husky": "^8.0.1",
     "terser": "^5.15.0",
     "typescript": "^4.7.4",
     "vite": "^3.0.8",
@@ -47,6 +51,9 @@
   "dependencies": {
     "esno": "^0.16.3",
     "unocss": "^0.45.8",
-    "vue": "^3.2.37"
-  }
+    "vue": "^3.2.37",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2"
+  },
+  "module": "scott-ui.esm.js"
 }

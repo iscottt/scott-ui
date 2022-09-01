@@ -1,9 +1,10 @@
-# 🎉 Scott-UI是什么?
+<p align="center" style="font-size:50px"> 🎉 Scott-UI </p>
 
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/smarty-admin-ui"><img src="https://img.shields.io/npm/v/smarty-admin-ui?color=c95f8b&amp;label=" alt="NPM version"></a>
-    <a href="https://github.com/smarty-team/smarty-admin/actions/workflows/main.yml"><img src="https://github.com/smarty-team/smarty-admin/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"></a>
+    <img src="https://img.shields.io/npm/v/scott-ui?color=c95f8b&amp;label=" alt="NPM version">
+    <img src="https://github.com/iscottt/scott-ui/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"/>
+    <img src="https://img.shields.io/github/license/iscottt/scott-ui?color=red"/>
 </p>
 
 
@@ -45,3 +46,11 @@ createApp(App)
 ## Browser Support
 
 Modern browsers and Internet Explorer 10+.
+
+
+## LICENSE
+
+[MIT](LICENSE)
+
+
+Copyright (c) 2022 - present RuiNan (Scott) Peng
