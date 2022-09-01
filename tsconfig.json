@@ -7,7 +7,7 @@
   },
   "include": ["./**/*.*", "./shims-vue.d.ts"],
   "exclude": [
-    "../../node_modules"
+    "./node_modules"
   ],
   "esModuleInterop": true,
   "allowSyntheticDefaultImports": "true"
