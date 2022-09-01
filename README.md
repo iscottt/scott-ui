@@ -1,4 +1,4 @@
-<p align="center" style="font-size:50px"> 🎉 Scott-UI </p>
+<h1 align="center"> 🎉 Scott-UI </h1>
 
 
 <p align="center">
