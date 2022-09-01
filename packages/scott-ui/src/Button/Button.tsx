@@ -24,7 +24,7 @@ export const props = {
     type: Boolean as PropType<boolean>,
     default: false,
   },
-};
+} as const;
 export default defineComponent({
   name: "SButton",
   props,

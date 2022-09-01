@@ -3,7 +3,7 @@ const sidebar = {
     { text: "快速开始", link: "/" },
     {
       text: "通用",
-      children: [{ text: "Button 按钮", link: "/components/button/" }],
+      children: [{ text: "Button 按钮", link: "/components/Button/" }],
     },
     { text: "导航" },
     { text: "反馈" },
@@ -13,6 +13,8 @@ const sidebar = {
   ],
 };
 const config = {
+  title: "🎉 Scott-UI",
+  description: "组件库搭建的教学模型",
   themeConfig: {
     sidebar,
   },

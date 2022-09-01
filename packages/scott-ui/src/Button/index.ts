@@ -6,7 +6,6 @@ export { Button };
 
 // 导出Vue插件
 export default {
-  name: "SButton",
   install(app: App) {
     app.component(Button.name, Button);
   },

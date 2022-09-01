@@ -1,7 +1,7 @@
 {
   "name": "scott-ui",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.0-1",
+  "description": "a personal design framework",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
