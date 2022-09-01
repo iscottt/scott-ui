@@ -1,10 +1,40 @@
-# ScottUI
-# Button 按钮
+# 🎉 Scott-UI是什么?
 
-  <div style="margin-bottom:20px;">
-    <SButton>默认按钮</SButton>
-    <SButton type="primary">主要按钮</SButton>
-    <SButton type="danger">危险按钮</SButton>
-    <SButton type="warning">警告按钮</SButton>
-    <SButton type="success">成功按钮</SButton>
-  </div>
+## Features
+
+- ⚡️ Vue 3, Vite 3, pnpm, ESBuild - born with fastness
+- 🦾 TypeScript, of course
+- 🗂 File based routing
+- ⚙️ Unit Testing with Vitest
+- 😃 Eslint + Prettier
+- 🎨 UnoCSS - the instant on-demand atomic CSS engine
+- 🌍 I18n ready
+- 🚘 CI/CD with GithubActions
+
+
+## Install
+
+```bash
+npm i scott-ui
+```
+
+## Quick Start
+
+```js
+import Vue from 'vue'
+import ScottUI from 'scott-ui'
+
+const App = {
+    template: `
+        <SButton/>
+    `,
+};
+
+createApp(App)
+    .use(ScottUI)
+    .mount("#app");
+```
+
+## Browser Support
+
+Modern browsers and Internet Explorer 10+.
