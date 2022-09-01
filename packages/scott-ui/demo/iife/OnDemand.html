@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/entry.css">
+</head>
+<body>
+<h1>Demo IFFE OnDemand</h1>
+<div id="app"></div>
+<script src="../../node_modules/vue/dist/vue.global.js"></script>
+<script src="../../dist/Button/index.iife.js"></script>
+<script>
+    const { createApp } = Vue
+    createApp({
+        template: `
+ <div style="margin-bottom:20px;">
+    <SButton>默认按钮</SButton>
+    <SButton type="primary">主要按钮</SButton>
+    <SButton type="danger">危险按钮</SButton>
+    <SButton type="warning">警告按钮</SButton>
+    <SButton type="success">成功按钮</SButton>
+ </div>
+ <div style="margin-bottom:20px;">
+    <SButton type="primary" ghost>主要按钮</SButton>
+    <SButton type="danger" ghost>危险按钮</SButton>
+    <SButton type="warning" ghost>警告按钮</SButton>
+    <SButton type="success" ghost>成功按钮</SButton>
+ </div>
+ <div style="margin-bottom:20px;">
+  <SButton size="small" type="primary">小按钮</SButton>
+  <SButton size="medium" type="danger">中按钮</SButton>
+  <SButton size="large" type="warning">大按钮</SButton>
+ </div>
+ <div style="margin-bottom:20px;">
+    <SButton>默认按钮</SButton>
+    <SButton type="primary" icon="search">搜索按钮</SButton>
+    <SButton type="primary" icon="edit">编辑按钮</SButton>
+    <SButton type="warning" icon="message">提示按钮</SButton>
+    <SButton type="danger" icon="delete">删除按钮</SButton>
+    <SButton type="success" icon="check">成功按钮</SButton>
+ </div>
+ <div style="margin-bottom:20px;">
+  <SButton type="primary" round icon="search"></SButton>
+  <SButton type="warning" round icon="edit"></SButton>
+  <SButton type="danger" round icon="check"></SButton>
+  <SButton type="success" round icon="message"></SButton>
+  <SButton round icon="delete"></SButton>
+ </div>
+    `
+    })
+        .use(Button.default)
+        .mount('#app')
+
+</script>
+
+</body>
+</html>
