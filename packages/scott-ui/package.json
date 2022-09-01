@@ -3,6 +3,7 @@
   "version": "1.0.0-1",
   "description": "a personal design framework",
   "main": "index.js",
+  "homepage": "https://docs-scott-ui.vercel.app/",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
