@@ -1,0 +1,5 @@
+{
+          "name": "Button",
+          "main": "index.umd.js",
+          "module": "index.umd.js"
+}

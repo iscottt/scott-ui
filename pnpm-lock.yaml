@@ -6,14 +6,62 @@ importers:
     specifiers:
       '@commitlint/cli': 17.0.2
       '@commitlint/config-conventional': 17.0.2
+      '@iconify-json/ic': ^1.1.9
+      '@typescript-eslint/eslint-plugin': ^5.34.0
+      '@typescript-eslint/parser': ^5.34.0
+      '@vitejs/plugin-vue': ^3.0.3
+      '@vitejs/plugin-vue-jsx': ^2.0.0
+      '@vue/eslint-config-prettier': ^7.0.0
+      '@vue/test-utils': 2.0.2
+      babel-eslint: ^10.1.0
+      eslint: ^8.22.0
+      eslint-formatter-pretty: ^4.1.0
+      eslint-plugin-json: ^3.1.0
+      eslint-plugin-prettier: ^4.2.1
+      eslint-plugin-vue: ^9.3.0
+      esno: ^0.16.3
+      fs-extra: ^10.1.0
+      happy-dom: 6.0.4
       husky: ^8.0.1
+      prettier: ^2.7.1
+      terser: ^5.15.0
+      typescript: ^4.7.4
+      unocss: ^0.45.8
       vite: ^3.0.8
+      vitepress: 0.22.4
+      vitepress-theme-demoblock: 1.4.2
+      vitest: 0.21.1
+      vue: ^3.2.37
     dependencies:
       '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/17.0.2
       '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/17.0.2
-      vite: registry.npmmirror.com/vite/3.0.8
+      esno: registry.npmmirror.com/esno/0.16.3
+      unocss: registry.npmmirror.com/unocss/0.45.13_vite@3.0.8
+      vue: registry.npmmirror.com/vue/3.2.38
     devDependencies:
+      '@iconify-json/ic': registry.npmmirror.com/@iconify-json/ic/1.1.9
+      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.36.1_uoznksvaqimddkvahx6c3yyzku
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.36.1_sorwav4hsh5vncerguqybud76i
+      '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.0.3_vite@3.0.8+vue@3.2.38
+      '@vitejs/plugin-vue-jsx': registry.npmmirror.com/@vitejs/plugin-vue-jsx/2.0.0_vite@3.0.8+vue@3.2.38
+      '@vue/eslint-config-prettier': registry.npmmirror.com/@vue/eslint-config-prettier/7.0.0_bxpuzolsxufkw2ipnoyzzxnyrm
+      '@vue/test-utils': registry.npmmirror.com/@vue/test-utils/2.0.2_vue@3.2.38
+      babel-eslint: registry.npmmirror.com/babel-eslint/10.1.0_eslint@8.23.0
+      eslint: registry.npmmirror.com/eslint/8.23.0
+      eslint-formatter-pretty: registry.npmmirror.com/eslint-formatter-pretty/4.1.0
+      eslint-plugin-json: registry.npmmirror.com/eslint-plugin-json/3.1.0
+      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_bxpuzolsxufkw2ipnoyzzxnyrm
+      eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.4.0_eslint@8.23.0
+      fs-extra: registry.npmmirror.com/fs-extra/10.1.0
+      happy-dom: registry.npmmirror.com/happy-dom/6.0.4
       husky: registry.npmmirror.com/husky/8.0.1
+      prettier: registry.npmmirror.com/prettier/2.7.1
+      terser: registry.npmmirror.com/terser/5.15.0
+      typescript: registry.npmmirror.com/typescript/4.7.4
+      vite: registry.npmmirror.com/vite/3.0.8_terser@5.15.0
+      vitepress: registry.npmmirror.com/vitepress/0.22.4
+      vitepress-theme-demoblock: registry.npmmirror.com/vitepress-theme-demoblock/1.4.2
+      vitest: registry.npmmirror.com/vitest/0.21.1_35azlleezrsk52uzouibk3efjm
 
   packages/scott-ui:
     specifiers:
@@ -5716,35 +5764,6 @@ packages:
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
-
-  registry.npmmirror.com/vite/3.0.8:
-    resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-3.0.8.tgz}
-    name: vite
-    version: 3.0.8
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      less: '*'
-      sass: '*'
-      stylus: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      esbuild: registry.npmmirror.com/esbuild/0.14.54
-      postcss: registry.npmmirror.com/postcss/8.4.16
-      resolve: registry.npmmirror.com/resolve/1.22.1
-      rollup: registry.npmmirror.com/rollup/2.77.3
-    optionalDependencies:
-      fsevents: registry.npmmirror.com/fsevents/2.3.2
-    dev: false
 
   registry.npmmirror.com/vite/3.0.8_terser@5.15.0:
     resolution: {integrity: sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-3.0.8.tgz}

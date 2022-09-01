@@ -50,7 +50,7 @@ Modern browsers and Internet Explorer 10+.
 
 ## LICENSE
 
-[MIT](../../LICENSE)
+[MIT](LICENSE)
 
 
 Copyright (c) 2022 - present RuiNan (Scott) Peng

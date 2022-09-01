@@ -12,8 +12,8 @@ const buildAll = async () => {
 
   // 复制 Package.json 文件
   const packageJson = require("../package.json");
-  packageJson.main = "smarty-ui.umd.js";
-  packageJson.module = "smarty-ui.esm.js";
+  packageJson.main = "scott-ui.umd.js";
+  packageJson.module = "scott-ui.esm.js";
   fs.outputFile(
     path.resolve(config.build.outDir, `package.json`),
     JSON.stringify(packageJson, null, 2)
@@ -51,7 +51,7 @@ const buildAll = async () => {
       fs.outputFile(
         path.resolve(outDir, `package.json`),
         `{
-          "name": "smarty-ui-vite/${name}",
+          "name": "${name}",
           "main": "index.umd.js",
           "module": "index.umd.js"
 }`,
