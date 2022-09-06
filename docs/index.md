@@ -1,40 +1,34 @@
-# 🎉 Scott-UI是什么?
+---
+layout: home
 
-## Features
+title: SCOTTUI
+titleTemplate: 对现有UI组件库的补充
 
-- ⚡️ Vue 3, Vite 3, pnpm, ESBuild - born with fastness
-- 🦾 TypeScript, of course
-- 🗂 File based routing
-- ⚙️ Unit Testing with Vitest
-- 😃 Eslint + Prettier
-- 🎨 UnoCSS - the instant on-demand atomic CSS engine
-- 🌍 I18n ready
-- 🚘 CI/CD with GithubActions
+hero:
+  name: SCOTT-UI
+  text: 对现有UI组件库的补充
+  tagline: 无负担的使用在所有vue项目上
+  image:
+    src: /logo.png
+    alt: Vite
+  actions:
+  - theme: brand
+    text: 开始探索
+    link: /guide/
+  - theme: alt
+    text: GitHub
+    link: https://github.com/iscottt/scott-ui
 
 
-## Install
 
-```bash
-npm i scott-ui
-```
-
-## Quick Start
-
-```js
-import Vue from 'vue'
-import ScottUI from 'scott-ui'
-
-const App = {
-    template: `
-        <SButton/>
-    `,
-};
-
-createApp(App)
-    .use(ScottUI)
-    .mount("#app");
-```
-
-## Browser Support
-
-Modern browsers and Internet Explorer 10+.
+features:
+  - icon: 🏆
+    title: 最新技术栈
+    details: Vue3+TS+Vite给你不一样的开发体验
+  - icon: 🚀
+    title: 按需加载
+    details: 用多少给多少，速度飞快
+  - icon: 👀
+    title: UI风格
+    details: 让你惊艳的UI设计，有点意思
+---
