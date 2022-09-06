@@ -19,7 +19,7 @@ export default defineConfig({
     ["meta", { name: "theme-color", content: "#646cff" }],
   ],
   themeConfig: {
-    logo: "http://scott.ethan.pub/assets/mr-king.be7a0e0b.png",
+    logo: "/logo.png",
     editLink: {
       pattern: "https://github.com/vitejs/vite/edit/main/docs/:path",
       text: "Suggest changes to this page",

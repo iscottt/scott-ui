@@ -8,7 +8,7 @@ hero:
   name: SCOTT-UI
   text: 定制化个人UI组件库
   image:
-    src: http://scott.ethan.pub/assets/mr-king.be7a0e0b.png
+    src: /logo.png
     alt: Vite
   actions:
   - theme: brand
