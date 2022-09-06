@@ -29,7 +29,8 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/iscottt/scott-ui" },
     ],
     footer: {
-      message: `Copyright © 2022-present Scott`,
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Scott'
     },
     nav: [
       { text: "首页", link: "/" },
