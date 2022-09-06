@@ -1,6 +1,6 @@
-# 🎉 Scott-UI是什么?
+# Scott-UI是什么?
 
-## Features
+## 特性
 
 - ⚡️ Vue 3, Vite 3, pnpm, ESBuild - born with fastness
 - 🦾 TypeScript, of course
@@ -12,13 +12,13 @@
 - 🚘 CI/CD with GithubActions
 
 
-## Install
+## 安装
 
 ```bash
-npm i scott-ui
+pnpm i scott-ui
 ```
 
-## Quick Start
+## 快速开始
 
 ```js
 import Vue from 'vue'
@@ -35,6 +35,6 @@ createApp(App)
     .mount("#app");
 ```
 
-## Browser Support
+## 浏览器支持
 
-Modern browsers and Internet Explorer 10+.
+现代化浏览器和 IE 10+.

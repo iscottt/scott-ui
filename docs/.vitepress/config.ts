@@ -8,7 +8,7 @@ export default defineConfig({
   title: "Scott-UI",
   description: "组件库",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/logo.png" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/logo1.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:title", content: ogTitle }],
     ["meta", { property: "og:image", content: ogImage }],
@@ -19,7 +19,7 @@ export default defineConfig({
     ["meta", { name: "theme-color", content: "#646cff" }],
   ],
   themeConfig: {
-    logo: "/logo.png",
+    logo: "http://scott.ethan.pub/assets/mr-king.be7a0e0b.png",
     editLink: {
       pattern: "https://github.com/vitejs/vite/edit/main/docs/:path",
       text: "Suggest changes to this page",
@@ -29,10 +29,11 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/iscottt/scott-ui" },
     ],
     footer: {
-      message: `关于作者：https://github.com/iscottt`,
+      message: `Copyright © 2022-present Scott`,
     },
     nav: [
-      { text: "指南", link: "/guide/index", activeMatch: "/guide/" },
+      { text: "首页", link: "/" },
+      { text: "起步", link: "/guide/index", activeMatch: "/guide/" },
       { text: "组件", link: "/components/Button/index", activeMatch: "/components/Button/" },
     ],
     sidebar,
