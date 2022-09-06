@@ -21,10 +21,9 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     editLink: {
-      pattern: "https://github.com/vitejs/vite/edit/main/docs/:path",
-      text: "Suggest changes to this page",
+      pattern: "https://github.com/iscottt/scott-ui/edit/main/docs/:path",
+      text: "为此页提供修改建议",
     },
-
     socialLinks: [
       { icon: "github", link: "https://github.com/iscottt/scott-ui" },
     ],
