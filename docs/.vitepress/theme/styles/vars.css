@@ -63,16 +63,16 @@
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-darker);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-  --vp-code-block-bg: #f1f1f1;
-  --vp-code-block-color: #333;
+  --vp-code-vue-bg: #f1f1f1;
+  --vp-code-vue-color: #333;
 }
 
 .dark {
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-  --vp-code-block-bg: var(--vp-c-bg-alt);
-  --vp-code-block-color: #fff;
+  --vp-code-vue-bg: var(--vp-c-bg-alt);
+  --vp-code-vue-color: #fff;
 }
 
 /**
